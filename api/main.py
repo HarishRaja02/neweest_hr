@@ -568,6 +568,6 @@ def send_email_route():
     else:
         return jsonify({"success": False, "message": "Failed to send email."})
 
-if __name__ == "__main__":
-    # Debug mode useful while developing; keep HTTPS/ngrok+secure production later.
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     # Debug mode useful while developing; keep HTTPS/ngrok+secure production later.
+#     app.run(debug=True)
